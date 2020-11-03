@@ -4,7 +4,7 @@
 
 Clone Repository
 
-Run npm install
+Run `npm install`
 
 ### Test Installation
 
