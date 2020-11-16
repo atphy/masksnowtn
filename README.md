@@ -13,6 +13,8 @@ It is being built in Vue3 with Vuetify and vue-router@next.  Learn more about th
 
 Clone Repository
 
+Run `rm -rf node_modules package-lock.json`
+
 Run `npm install`
 
 ### Test Installation
