@@ -10,6 +10,8 @@ export default {
 </script>
 
 <style>
+@import '~vuetify/src/stylus/main';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,4 +20,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
