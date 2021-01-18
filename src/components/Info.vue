@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style>
-#main-section {
+/* #main-section {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 8% 15% 70%;
@@ -42,5 +42,5 @@ img {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
-}
+} */
 </style>
