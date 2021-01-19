@@ -1,14 +1,16 @@
 <template>
-  <div id="main-section">
-    <h1 class="main-els">Masks Now TN</h1>
-    <p class="main-els">{{ info1 }}</p>
-    <p class="main-els">{{ info2 }}</p>
-    <img
-      class="main-els"
-      :src="require('@/img/MasksNowTNLogo.png')"
-      alt="'We Can Do It' inspirational image."
-    />
-  </div>
+  <v-container class="">
+    <div id="main-section">
+      <h1 class="main-els">Masks Now TN</h1>
+      <p class="main-els">{{ info1 }}</p>
+      <p class="main-els">{{ info2 }}</p>
+      <img
+        class="main-els"
+        :src="require('@/img/MasksNowTNLogo.png')"
+        alt="'We Can Do It' inspirational image."
+      />
+    </div>
+  </v-container>
 </template>
 
 <script>
