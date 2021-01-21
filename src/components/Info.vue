@@ -1,14 +1,36 @@
 <template>
   <v-container class="">
+    <v-row>
+      <v-col>
+        <h1 class="main-els">Masks Now TN</h1>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <p class="main-els">{{ info1 }}</p>
+        <p class="main-els">{{ info2 }}</p>
+      </v-col>
+      <v-col>
+        <v-img
+          :src="require('../img/MasksNowTNLogo.png')"
+          alt="'We Can Do It'
+          inspirational image."
+        >
+        </v-img>
+      </v-col>
+    </v-row>
+  </v-container>
+
+  <v-container class="">
     <div id="main-section">
-      <h1 class="main-els">Masks Now TN</h1>
-      <p class="main-els">{{ info1 }}</p>
-      <p class="main-els">{{ info2 }}</p>
-      <img
+      <!-- <h1 class="main-els">Masks Now TN</h1> -->
+      <!-- <p class="main-els">{{ info1 }}</p> -->
+      <!-- <p class="main-els">{{ info2 }}</p> -->
+      <!-- <img
         class="main-els"
         :src="require('@/img/MasksNowTNLogo.png')"
         alt="'We Can Do It' inspirational image."
-      />
+      /> -->
     </div>
   </v-container>
 </template>
