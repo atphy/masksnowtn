@@ -1,7 +1,6 @@
 import { createApp, Vue } from 'vue'
 import App from './App.vue'
 import router from './router'
-import vuetify from 'vue-cli-plugin-vuetify'
 
 createApp(App).use(router).mount('#app')
 
@@ -14,6 +13,6 @@ createApp(App)
 new Vue({
   router,
 //   store,
-  vuetify,
+//   vuetify,
   render: h => h(App)
 }).$mount("#app");
